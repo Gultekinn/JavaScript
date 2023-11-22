@@ -156,3 +156,68 @@
 //     alert("umumi balans :" + balance);
 //     break;
 // }
+
+// !for dongusu
+// // 1 den 10 kimi yazdir
+//  for(let i=1;i<=10;i++){
+//     console.log(i);
+//  }
+// // 1 den 10 a kimi cutleri yazdirmaq
+// for(let i=0; i<=10; i+=2 ){
+//     console.log(i)
+// }
+// //1 den 10 a kimi tekler
+// for(let i=1; i<=10; i+=2){
+//     console.log(i)
+// }
+
+
+// // i tek olarsa gulu i cut olursa lale yazsin
+// for(let i=1; i<=10; i++){
+//     if(i%2==1){
+//         console.log("lale")
+//     }else{
+//         console.log('gulu')
+//     }
+// }
+
+// // 50 den 1 e kimi get ve cemini tap
+// let sum=0
+// for(let i=50; i>=1; i--){
+//     sum+=i
+// console.log(i)
+// }
+// console.log(sum)
+
+
+//! while dongusu
+// let saygac=1;
+// while(saygac<=10){
+//     console.log(saygac);
+////eger bele olarsa sonsuz donguye girer buna gore asagidaki kimi yazacayiq
+// saygac++;
+// }
+
+// //tek ededler
+// let saygac=0;
+// while(saygac<=10){
+//     if(saygac%2==1){
+//         console.log(saygac)
+//     }
+//     saygac++
+// }
+
+
+
+//eger meselen 1 den 10 a kimi ededlerden sadece 7 e kimi yazdirmaq isdiyirsense
+
+
+let saygac=1;
+while(true){
+    console.log(saygac);
+    if(saygac==7){
+        break; 
+        //yani 7 e kimi yazdir ekrana sonra durdur breakla
+    }
+    saygac++
+}
