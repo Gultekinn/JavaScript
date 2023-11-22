@@ -171,7 +171,6 @@
 //     console.log(i)
 // }
 
-
 // // i tek olarsa gulu i cut olursa lale yazsin
 // for(let i=1; i<=10; i++){
 //     if(i%2==1){
@@ -188,7 +187,6 @@
 // console.log(i)
 // }
 // console.log(sum)
-
 
 //! while dongusu
 // let saygac=1;
@@ -207,17 +205,63 @@
 //     saygac++
 // }
 
+// //eger meselen 1 den 10 a kimi ededlerden sadece 7 e kimi yazdirmaq isdiyirsense
+
+// let saygac=1;
+// while(true){
+//     console.log(saygac);
+//     if(saygac==7){
+//         break;
+//         //yani 7 e kimi yazdir ekrana sonra durdur breakla
+//     }
+//     saygac++
+// }
+
+// //do ve while
+
+// do{
+//     //kodlar
+// }while(sart)
+
+// // 1den 10 a kadar yazdiralim
+// let saygac=1;
+
+// do{
+// console.log(saygac);
+// saygac++;
+// }while(saygac<=10);
+
+//break  -   continue
+//!break
+// // 1 den 10 a kadar sayilari yazilsin 8 e catanda donguusnden cixsin
+// let saygac = 1;
+// while (saygac <= 10) {
+//   console.log(saygac);
+//   if (saygac == 8) {
+//     break;
+//   }
+//   saygac++;
+// }
+
+//? continue
+// // 1 2 3 4 5 6 8 9 10
+// let saygac = 0;
+// while (saygac <= 10) {
+//   saygac++;
+//   if (saygac == 7) {
+//     continue;
+//   }
+//   console.log(saygac);
+// }
+
+// //vurma cedveli
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(i + "x" + j + "=" + i * j);
+//   }
+//   console.log("...............................");
+// }
 
 
-//eger meselen 1 den 10 a kimi ededlerden sadece 7 e kimi yazdirmaq isdiyirsense
 
 
-let saygac=1;
-while(true){
-    console.log(saygac);
-    if(saygac==7){
-        break; 
-        //yani 7 e kimi yazdir ekrana sonra durdur breakla
-    }
-    saygac++
-}
