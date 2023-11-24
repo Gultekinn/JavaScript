@@ -265,3 +265,42 @@
 
 
 
+// //153=1*1*1+5*5*5+3*3*3
+
+// let sayi=prompt("sayi daxil edin")
+// let toplam=0;
+// for(let i=0;i<sayi.length;i++){
+//   let rakam=  sayi.charAt(i);
+//   toplam+=rakam*rakam*rakam;
+// }
+// if(Number(sayi)==toplam){
+//     alert("Arastrong sayisidir")
+// }else{
+
+//     alert("arastrong sayisi degildir")
+// }
+
+
+//! Metodlar
+
+
+//! Parametirli metod tanimlamak
+// function yazdir(ad,soyad){
+//     console.log(ad+""+soyad);
+
+// }
+// yazdir("Gultekin","Azizova");
+// yazdir("Lale","Azizli");
+// //parametrlerde let kimi deyerler tanimaz.
+
+
+// let yas =Number(prompt("Yasinizi girin"))
+// kontrolEt(yas);
+// function kontrolEt(yas){
+//     if(yas>=18){
+//         console.log("Ehliyet ala bilersiz")
+//     }
+// else{
+//     console.log("ehliyet ala bilmersiz")
+// }
+// }
