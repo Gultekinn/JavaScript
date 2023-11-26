@@ -262,9 +262,6 @@
 //   console.log("...............................");
 // }
 
-
-
-
 // //153=1*1*1+5*5*5+3*3*3
 
 // let sayi=prompt("sayi daxil edin")
@@ -280,9 +277,7 @@
 //     alert("arastrong sayisi degildir")
 // }
 
-
 //! Metodlar
-
 
 //! Parametirli metod tanimlamak
 // function yazdir(ad,soyad){
@@ -293,7 +288,6 @@
 // yazdir("Lale","Azizli");
 // //parametrlerde let kimi deyerler tanimaz.
 
-
 // let yas =Number(prompt("Yasinizi girin"))
 // kontrolEt(yas);
 // function kontrolEt(yas){
@@ -303,4 +297,86 @@
 // else{
 //     console.log("ehliyet ala bilmersiz")
 // }
+// }
+
+//!geriye deger qaytaran metod tanimaq----return
+
+// cube(3)
+// function cube(sayi){
+//     let sonuc=sayi*sayi*sayi
+//     console.log(sonuc);
+// }
+// // bu kodda  sonucu {} colune yazsaq tanimayacaq buna gore return metodundan istifade olunur yeni geriye deyer qaytarir
+
+// let donenDeger=cube(3)
+// console.log(donenDeger)
+
+// function cube(sayi){
+//     let sonuc=sayi*sayi*sayi;
+//     return sanouc
+// }
+
+//? 1-return -bir deegeri metodun colune cixarmaq dasimaq ucundur
+//? 2- bir metodu bitiren acar sozdur
+
+//! soz sayisi tapma uygulamasi
+
+// let metin = "Hal hazirda javascript derslerine baxiram.";
+// let herf = prompt("Herf daxil edin");
+// let sonuc = bul(herf);
+// alert("herf sayisi :"+sonuc)
+// function bul(herf) {
+//   let toplam = 0;
+//   for (let i = 0; i < metin.length; i++) {
+//     if(metin.charAt(i).toLowerCase()===herf.toLowerCase()){
+//             toplam += 1;
+
+//     }
+//   }
+//   return toplam;
+// }
+
+//! mukemmel reqem uygulamasi
+
+// // sayinin bolenlerinin cemi sayinin iki qatidirsa mukkemer reqemdir
+// isPerfectNumber(20)
+
+// function isPerfectNumber(number) {
+//   let toplam = 0;
+//   for (let i = 2; i<=number / 2; i++) {
+//     if (number % i == 0) {
+//       toplam += i;
+//     }
+//   }
+//   toplam += 1 + number;
+//   if (toplam == number * 2) {
+//     console.log("mukkemel reqem");
+//   } else {
+//     console.log("mukkemel sayi reqem");
+//   }
+// }
+
+//! Decimal to binary conversion
+// convertDecimalToBinary(20);
+// function convertDecimalToBinary(number) {
+//   let binary = "";
+//   while (true) {
+//     binary += (number % 2).toString();
+//     number = Math.floor(number / 2);
+
+//     if (number == 1) {
+//       //artiq bolmeyeciik
+//       binary += 1;
+//       break;
+//     }
+//   }
+//   let result = reverse(binary);
+//   console.log(result);
+// }
+// function reverse(binary) {
+//   let reverseBinary = "";
+//   for (let i = binary.length - 1; i > 0; i--) {
+//     reverseBinary += binary.charAt(i);
+//   }
+//   return reverseBinary;
 // }
